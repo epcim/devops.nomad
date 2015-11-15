@@ -1,0 +1,7 @@
+# private stuff
+.env
+_*
+*.secrets
+*.backup
+*.tfstate
+.terraform
