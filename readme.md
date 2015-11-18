@@ -25,12 +25,15 @@
 
 
 
-[scripts]: https://github.com/hivetech/devops.nomad/blob/master/scripts/readme.md
-[images]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/images/readme.md
-[infra]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/cluster/readme.md
-[jobs]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/containers/readme.md
+[scripts]: https://github.com/hivetech/devops.nomad/blob/master/scripts
+[images]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/images
+[infra]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/cluster
+[jobs]: https://github.com/hivetech/devops.nomad/blob/master/infrastructure/containers
 [riemann]: http://riemann.io/
 [packer]: https://packer.io/
 [nomad]: https://www.nomadproject.io/
 [do]: https://www.digitalocean.com/
 [docker]: https://www.docker.com/
+[terraform]: https://www.terraform.io/
+[circle]: https://circleci.com/
+[github]: https://github.com/
