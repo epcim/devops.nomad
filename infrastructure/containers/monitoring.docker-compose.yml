@@ -1,0 +1,16 @@
+---
+influx:
+  build: ./influxdb
+  ports:
+    - 8083:8083
+    - 8086:8086
+
+telegraf:
+  build: ./telegraf
+  links:
+    - influx
+
+grafana:
+  image: grafana/grafana:2.5.0
+  ports:
+    - 3000:3000
