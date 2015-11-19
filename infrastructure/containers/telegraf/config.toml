@@ -95,11 +95,11 @@
   drop = ["cpu_time"]
 
 # Read metrics about disk usage by mount point
-[disk]
+#[disk]
   # no configuration
 
 # Read metrics about disk IO by device
-[io]
+#[io]
   # no configuration
 
 # Read metrics about memory usage
@@ -107,7 +107,7 @@
   # no configuration
 
 # Read metrics about swap memory usage
-[swap]
+#[swap]
   # no configuration
 
 # Read metrics about system load & uptime

@@ -8,7 +8,7 @@ RUN curl -s -o /tmp/telegraf.rpm http://get.influxdb.org/telegraf/telegraf-${TEL
   rm -f /tmp/telegraf.rpm
 
 # overwrite standard location
-ADD ./config.toml /etc/opt/telegraf/telegraf.toml
+ADD ./config.toml /etc/opt/telegraf/telegraf.conf
 ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
